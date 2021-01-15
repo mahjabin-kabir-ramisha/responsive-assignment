@@ -1,4 +1,9 @@
-
+body{
+    background-color:white;
+}
+.price{
+    color: rgba(250, 190, 76, 1);
+}
 h1{
     font-size: 80px;
     font-family: 'Bebas Neue', cursive;
@@ -13,20 +18,59 @@ h1{
     margin-left: 5%;
     padding-left: 2%;
 }
+
 .half-width img{
     width: 100%;
+}
+.row{
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 p{ 
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
+.card img{
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
 .card-footer{
    border: 0
    
 }
+
+.title{
+    margin-top: 15vh;
+    margin-bottom: 4rem;
+}
+.title h2{
+    color: rgba(54, 57, 88, 1);
+    font-size: bold;
+    text-align:center;
+    
+}
 .btn{
   background-color:yellowgreen;
-  padding-right: 5%;
+  
   
 }
+.card{
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+
+.ccard img{
+ width: 50%;
+}
+
+
+
+
+
